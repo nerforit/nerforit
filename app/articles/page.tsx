@@ -1,0 +1,2 @@
+import PublicShell from "@/components/PublicShell"; import { articles } from "@/lib/demo"; import Link from "next/link";
+export default function Articles(){return <PublicShell><main className="page"><h1 className="page-title">Articles</h1><p className="page-subtitle">Tips, panduan, dan informasi teknologi.</p><div className="articles">{articles.map(a=><Link className="article-card" href={`/articles/${a.slug}`} key={a.id}><img src={a.image} alt={a.title}/><div><span>{a.date} · {a.category}</span><h3>{a.title}</h3></div></Link>)}</div></main></PublicShell>}

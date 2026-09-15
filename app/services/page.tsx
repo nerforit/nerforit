@@ -1,0 +1,2 @@
+import PublicShell from "@/components/PublicShell"; import { services } from "@/lib/demo";
+export default function Services(){return <PublicShell><main className="page"><h1 className="page-title">Services</h1><p className="page-subtitle">Solusi perawatan dan perbaikan perangkat untuk kebutuhan personal maupun bisnis.</p><div className="articles">{services.map(s=><div className="article-card" key={s.title}><div><span>NERFORIT SERVICE</span><h3>{s.title}</h3><p>{s.text}</p></div></div>)}</div></main></PublicShell>}
