@@ -1,1 +1,0 @@
-export default function Inventory(){return <><h1>Inventory</h1><p className="muted">Monitor stock levels.</p><div className="panel">Inventory management is ready for Supabase integration.</div></>}

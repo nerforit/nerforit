@@ -1,1 +1,0 @@
-export default function Categories(){return <><h1>Categories</h1><p className="muted">Manage product categories.</p><div className="panel">Connected to the Supabase <b>categories</b> table.</div></>}

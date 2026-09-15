@@ -1,1 +1,0 @@
-export default function Reports(){return <><h1>Reports</h1><div className="metrics"><div className="metric">Monthly sales<b>Rp 24.8M</b></div><div className="metric">Average order<b>Rp 193K</b></div><div className="metric">Items sold<b>384</b></div><div className="metric">Low stock<b>5</b></div></div></>}
