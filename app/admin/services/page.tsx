@@ -1,0 +1,1 @@
+export default function Services(){return <><h1>Services</h1><p className="muted">Manage public services.</p><div className="panel">Connected to the Supabase <b>services</b> table.</div></>}

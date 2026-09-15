@@ -1,0 +1,1 @@
+export default function Settings(){return <><h1>Settings</h1><div className="panel"><form className="form"><div className="field"><label>Store name</label><input defaultValue="Nerforit"/></div><div className="field"><label>Store email</label><input defaultValue="hello@nerforit.com"/></div><button className="btn">Save settings</button></form></div></>}

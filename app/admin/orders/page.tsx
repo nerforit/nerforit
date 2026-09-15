@@ -1,0 +1,1 @@
+export default function Orders(){return <><h1>Orders</h1><p className="muted">Manage customer orders.</p><div className="panel">Orders will be loaded from Supabase.</div></>}
